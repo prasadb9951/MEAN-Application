@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const Video = require('../models/video');
 
-const db = "mongodb://uservishwas:dbpwvishwas1@ds147920.mlab.com:47920/videoplayer";
+const db = "mongodb://userprasab9951:dbpwprasad1@ds147920.mlab.com:47920/videoplayer";
 mongoose.Promise = global.Promise;
 mongoose.connect(db, function(err){
     if(err){
